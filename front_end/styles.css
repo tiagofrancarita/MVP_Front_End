@@ -26,7 +26,7 @@ header {
 }
 
 .banner {
-    height: 300px;
+    height: 600px;
     overflow: hidden;
 }
 
@@ -49,15 +49,7 @@ header {
     clear: both;
 }
 
-#newInput {
-    margin: 0;
-    border: 1px solid rgb(35, 32, 24);
-    width: 25%;
-    padding: 10px;
-    font-size: 16px;
-}
-
-#newQuantity {
+#newMarca {
     margin: 0;
     border: 1px solid rgb(35, 32, 24);
     width: 8%;
@@ -65,24 +57,50 @@ header {
     font-size: 16px;
 }
 
-#newPrice {
+#newModel {
     margin: 0;
     border: 1px solid rgb(35, 32, 24);
-    width: 5%;
+    width: 8%;
+    padding: 10px;
+    font-size: 16px;
+}
+
+#newBoard {
+    margin: 0;
+    border: 1px solid rgb(35, 32, 24);
+    width: 8%;
+    padding: 10px;
+    font-size: 16px;
+}
+
+#newYear {
+    margin: 0;
+    border: 1px solid rgb(35, 32, 24);
+    width: 8%;
     padding: 10px;
     font-size: 16px;
 }
 
 
+#newKilometers {
+    margin: 0;
+    border: 1px solid rgb(35, 32, 24);
+    width: 10%;
+    padding: 10px;
+    font-size: 16px;
+}
+
+
+
 .addBtn {
-    padding: 9px 10px;
+    padding: 10px 12px;
     background-color: rgb(35, 32, 24);
     color: white;
     text-align: center;
     font-size: 16px;
     cursor: pointer;
     transition: 0.3s;
-    border-radius: 2px;
+    border-radius: 10px;
 }
 
 .addBtn:hover {
@@ -113,19 +131,21 @@ td {
     font-size: 18px;
     transition: 0.2s;
     text-align: start;
+    width: 20%;
 }
 
 table{
     background-color: white;
-    width: 50%;
+    width: 40%;
 }
 
 tr:nth-child(odd){
     background-color: #eee;
+    width: 10%;
 }
 
 th:nth-child(1){
-    width: 80%;
+    width: 12%;
 }
 
 tr:hover {

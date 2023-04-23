@@ -1,8 +1,7 @@
-# Meu Front
+# CarrosLTDA
 
-Este pequeno projeto faz parte do material diático da Disciplina **Desenvolvimento Full Stack Básico** 
-
-O objetivo aqui é ilutsrar o conteúdo apresentado na terceira aula.
+Projeto para conclusão da sprint I do curso de pós graduação em engenharia de software.
+Projeto desenvolvido para cadastro de veiculos de uma locadora.
 
 ---
 ## Como executar
