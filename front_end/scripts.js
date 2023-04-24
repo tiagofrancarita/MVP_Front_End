@@ -17,8 +17,7 @@ const getList = async () => {
       });
   }
   
-  /*newQuilometers").value = "";
-    document.getElementById("newYars").value = "";
+  /*
     --------------------------------------------------------------------------------------
     Chamada da função para carregamento inicial dos dados
     --------------------------------------------------------------------------------------
@@ -119,12 +118,17 @@ const removeElement = () => {
     if (inputMarca === '') {
       alert("Digite a marca do carro");
     } else if (isNaN(inputQuilometragem)|| isNaN(inputAno)) {
-      alert("Quilometagem precisam ser números!");
+      alert("Quilometagem e ano precisam ser números!");
     } else {
       insertList(inputMarca, inputModelo, inputPlaca, inputQuilometragem,inputAno)
       postItem(inputMarca, inputModelo, inputPlaca, inputQuilometragem,inputAno)
+      
       alert("Carro adicionado!")
+      location.reload(true)
+      
     }
+
+    
   }
   
   /*
@@ -147,6 +151,6 @@ const removeElement = () => {
     document.getElementById("newBoard").value = "";
     document.getElementById("newQuilometers").value = "";
     document.getElementById("newYars").value = "";
-  
+    
     removeElement()
   }
