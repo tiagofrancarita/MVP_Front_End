@@ -24,7 +24,6 @@ const getList = async () => {
   */
   getList()
   
-  
   /*
     --------------------------------------------------------------------------------------
     Função para colocar um item na lista do servidor via requisição POST
@@ -48,8 +47,6 @@ const getList = async () => {
         console.error('Error:', error);
       });
   }
-  
-  
   /*
     --------------------------------------------------------------------------------------
     Função para criar um botão close para cada item da lista
@@ -62,8 +59,6 @@ const getList = async () => {
     span.appendChild(txt);
     parent.appendChild(span);
   }
-  
-  
 /*
   --------------------------------------------------------------------------------------
   Função para remover um item da lista de acordo com o click no botão close
@@ -127,8 +122,6 @@ const removeElement = () => {
       location.reload(true)
       
     }
-
-    
   }
   
   /*
@@ -153,4 +146,5 @@ const removeElement = () => {
     document.getElementById("newYars").value = "";
     
     removeElement()
+    
   }
