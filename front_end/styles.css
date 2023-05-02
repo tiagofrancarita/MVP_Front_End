@@ -5,11 +5,11 @@ li {
     box-sizing: border-box;
     margin: 0;
     padding: 0;
-    background-color: rgb(225, 222, 199);
+    background-color: rgb(53, 53, 51);
 }
 
 header {
-    background-color: rgb(225, 222, 199);
+    background-color: rgb(53, 53, 51);;
     text-align: center;
     position: relative;
     width: 100%;
@@ -36,7 +36,7 @@ header {
 }
 
 .newItem {
-    background-color: rgb(225, 222, 199);
+    background-color: rgb(53, 53, 51);;
     padding: 30px 40px;
     color: white;
     display: flex;
@@ -149,5 +149,5 @@ th:nth-child(1){
 }
 
 tr:hover {
-    background: rgb(200, 199, 199);
+    background: rgb(53, 53, 51);;
 }
